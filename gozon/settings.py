@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ybkamqd*^b#sat&@0)-5@e(6nwmdahs(25&h4o(q85extw_!1b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['gozonkeanulrich.herokuapp.com', '127.0.0.1']
 
@@ -128,8 +128,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
@@ -153,7 +151,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'python0164@gmail.com'
-EMAIL_HOST_PASSWORD = 'dhuhnkwtzjmbrzcj'
+EMAIL_HOST_PASSWORD = 'qjylnjdaqcpzqhzv'
 
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 
