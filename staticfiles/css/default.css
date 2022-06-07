@@ -1,4 +1,4 @@
-/* 
+/*
     search google fonts for fontstyle
     search cssmatic.com for box shadowing
 */
@@ -86,14 +86,14 @@ h6{ font-size: 16px; }
     background-color: var(--secondaryColor);
     border: 1px solid var(--boderColor);
     border-radius: 5px 5px 0 0;
-    
+
     -webkit-box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.75);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         'nav-wrapper nav-wrapper'
         'left-column right-column'
     ;
@@ -157,7 +157,7 @@ h6{ font-size: 16px; }
     grid-area: left-column;
     padding-top: 50px;
     padding-bottom: 50px;
-   
+
 }
 
 #profile_pic{
@@ -395,7 +395,7 @@ h6{ font-size: 16px; }
 @media screen and (max-width: 800px){
     .intro-wrapper{
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
             'nav-wrapper'
             'left-column'
             'right-column'
@@ -404,5 +404,12 @@ h6{ font-size: 16px; }
 
     .right-column{
         justify-content: center;
+    }
+
+    #preview-shadow{
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    padding-top: 0;
     }
 }
